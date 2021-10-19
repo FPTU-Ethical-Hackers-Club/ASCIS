@@ -4,7 +4,7 @@
 
 ## Configuration
 
-Put files to floder `bin`. They'll be copied to /home/ctf. **Update the flag** at the same time.
+Put files to folder `bin`. They'll be copied to /home/ctf. **Update the flag** at the same time.
 
 Edit `ctf.xinetd`. replace `./helloworld` to your command.
 
