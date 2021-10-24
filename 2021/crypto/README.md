@@ -1,1 +1,1 @@
-# Many thanks to [Dao Trong Nghia](https://github.com/nghiadt1098) for contributing this write-up.
+# Many thanks to [Phung Duc Thang](https://github.com/thangpd3160) for contributing this write-up.
