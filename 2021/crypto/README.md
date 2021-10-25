@@ -1,1 +1,5 @@
-# Many thanks to [Phung Duc Thang](https://github.com/thangpd3160) for contributing this write-up.
+# Crytography challenges from ASCIS Quals 2021.
+
+### 1. EasyOne
+### 2. ConfuseOne
+### 3. NoOne
