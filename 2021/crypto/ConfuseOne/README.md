@@ -1,5 +1,7 @@
 # ConfuseOne
 
+### Author: [Phung Duc Thang](https://github.com/thangpd3160)
+
 This is blackbox crypto challenge! There is no source, and actually the most practical one.
 
 ![image](https://user-images.githubusercontent.com/61876488/138580390-4216d4e3-f078-43f8-bcf1-7e884401a72b.png)
@@ -99,3 +101,5 @@ thangpd3160@kali:~$ python3 RsaToHmac.py -t eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9
 - Replace token value in burp request, then submit to get the flag:
 
 ![image](https://user-images.githubusercontent.com/61876488/138580616-a85f5afb-cedd-45b1-b186-80bae5bdd9f1.png)
+
+
