@@ -1,5 +1,7 @@
 # EasyOne
 
+### Author: [Phung Duc Thang](https://github.com/thangpd3160)
+
 A challenge about digital certificate problem, just the basic things. Full source code can found at [here](https://github.com/FPTU-Ethical-Hackers-Club/SVATTT/tree/main/2021/crypto/EasyOne/source).
 
 ![image](https://user-images.githubusercontent.com/61876488/138579352-157d38db-e464-432d-a527-f46f64650f46.png)
