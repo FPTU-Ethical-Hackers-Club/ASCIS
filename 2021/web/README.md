@@ -2,4 +2,4 @@
 
 ### 1. [Script Kiddie]()
 ### 2. [OProxy]()
-### 3. [Isolate]()
+### 3. [Isolate](https://github.com/FPTU-Ethical-Hackers-Club/ASCIS/tree/main/2021/web/isolate)
