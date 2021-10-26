@@ -48,7 +48,7 @@ Tuyệt vời, điều này có nghĩa là chúng ta có thể path traversal th
 
 ### 3. Exploit and get flag:
 
-Còn một trở ngại cuối cùng nữa, đó là chúng ta không biết flag này ở chỗ nào :v. Nếu bài này mà lại đi đoán đường dẫn thì unintended vl :(. Sau một hồi brute force tìm đường dẫn đến tuyệt vọng thì chợt nhận ra là Linux lưu trạng thái của tất cả mọi thứ dưới dạng file, kể cả các process đang chạy trên máy. `/proc/self` là một trong những magic đó của Linux, nó là folder chứa **context của process hiện tại**. Trong `/proc/self` đó lại chứa rất nhiều file và folder lưu nhiều thông tin khác nhau của process hiện tại, trong đó cái thú vị nhất là `/proc/self/cwd` chứa directory hiện tại mà process đang chạy trên đó (current working directory):
+Còn một trở ngại cuối cùng nữa, đó là chúng ta không biết flag này ở chỗ nào :v. Nếu bài này mà lại đi đoán đường dẫn thì unintended vl :(. Sau một hồi brute force tìm đường dẫn đến tuyệt vọng thì chợt nhận ra là Linux lưu trạng thái của tất cả mọi thứ dưới dạng file (đọc tại [đây](https://man7.org/linux/man-pages/man5/proc.5.html)), kể cả các process đang chạy trên máy. `/proc/self` là một trong những magic đó của Linux, nó là folder chứa **context của process hiện tại**. Trong `/proc/self` đó lại chứa rất nhiều file và folder lưu nhiều thông tin khác nhau của process hiện tại, trong đó cái thú vị nhất là `/proc/self/cwd` chứa directory hiện tại mà process đang chạy trên đó (current working directory):
 
 ![image](https://user-images.githubusercontent.com/61876488/138863249-b4cba18f-aa3f-4262-b42b-aaee09a7997c.png)
 
