@@ -10,4 +10,4 @@ You need to add an environment variable:
 export CHECK_COM_INFO=1
 ```
 
-Hint 2: [converter_poc]()
+Hint 2: [converter_poc](https://github.com/FPTU-Ethical-Hackers-Club/ASCIS/blob/main/2021/pwn/image%20converter/converter_poc.JPG)
