@@ -23,3 +23,5 @@ Như mô tả ta có thể biết rằng web có chứa lỗ hổng SQL-injectio
 - Tham khảo bài viết sau về các dùng Intruder của Burp Suite: https://portswigger.net/burp/documentation/desktop/tools/intruder/using.
 
 ![image](https://user-images.githubusercontent.com/61876488/147627227-2a1de958-cc94-46db-8b80-2621e926a2c2.png)
+
+- Flag: `ASICS{ssalchtiwesmihcueymorf}`
