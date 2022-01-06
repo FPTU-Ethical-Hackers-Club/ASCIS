@@ -1,0 +1,3 @@
+[submodule "Desktop/CTF/Desktop/CTF/core-services"]
+	path = Desktop/CTF/Desktop/CTF/core-services
+	url = https://github.com/hackforces-org/core-services
