@@ -113,13 +113,11 @@
 ###     Code sql
 ###     Image + Results
 
-# Query Requirements And Results
 ##   Query2 :
 ###     Code sql
 ###     Image + Results
 
 
-# Query Requirements And Results
 ##   Query3 :
 ###     Code sql
 ###     Image + Results
