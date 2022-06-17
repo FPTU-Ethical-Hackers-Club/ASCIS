@@ -1,8 +1,56 @@
 ﻿# DBI_202_sp22
 ** Phân Tích Quản Lý Điểm FLM **
-# Các Thông Tin Cần Cung Cấp Và Hiển Thị Cho Người Dùng
-## Bảng Thông Tin Các Điểm Thành Phần 
+# Xác Định Và Tổng Hợp Các Dữ Liệu 
+## Bảng Thông Tin Các Điểm Thành Phần
+### Link Image Table FLM  
+### Category (hạng mục)
+#### Progress Tests 
+#### Assignment
+#### Labs,Pe,FE
+### Type(loại) 
+#### Quiz 
+#### On-going
+#### Pe, Fe
+### Part ( phần )
+### Weight 
+#### Mô Tả: Trọng số trên từng hạng mục 
+### Completion Criteria 
+#### Mô Tả: Điều kiện để thi và điểm tối thiểu để pass 
+### Duration
+#### Mô Tả: Khoảng thời gian cần làm việc trong hạng mục
+#### At home 
+#### In lab session
+### Question Type( Loại câu hỏi ): MTC
+### No Question( Số câu hỏi )
+### Knowledge and Skill
+### Grading Guide
+### Note
+--------------------------------------------------------------------------
+## Bảng Môn Và Khóa Học 
+### Link Image Table Subjects
+### NO: number of subject
+### Subject code : One subject <-> One code
+### Subject name : Define of subject
+### Semester : Seasons +  Years
+### Group: Lớp học 
+### StartDate: Thời điểm bắt đầu môn học
+### EndDate: Thời điểm kết thúc môn học
+### Average Mark: điểm trung bình
+### Status: Not Passed OR Passed
+--------------------------------------------------------------------------
 ## Bảng Điểm Của Sinh Viên
+### Link Image Table Subjects
+### Grade category (hạng mục)
+#### Quiz 1 ( PT1 )
+#### Quiz 2 ( PT2 )
+#### Group Assignment
+#### Group Project
+#### Final Exam 
+#### Final Exam Resit
+### Grade Item ( hạng mục ) : thêm 1 row total
+### Weight: Tỉ trọng điểm thành phần( cũng có ở bên FML table )
+### Value: Mark
+
 # Xác Định Các Thực Thể Và Các Thông Tin Thuộc Tính Thực Thể Cần Có
 ## Xác Định Các Thực Thể 
 ### Thực Thể 1: 
