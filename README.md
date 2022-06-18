@@ -4,22 +4,22 @@
 ## Bảng Thông Tin Các Điểm Thành Phần
 ###   ![image](https://user-images.githubusercontent.com/76523661/174435404-9625a8e9-0cb4-4422-bf44-80bf17562179.png) 
 ###   Category (hạng mục)
-####       Progress Tests 
-####       Assignment
-####       Labs,Pe,FE
+           Progress Tests 
+           Assignment
+           Labs,Pe,FE
 ###   Type(loại) 
-####       Quiz 
-####       On-going
-####       Pe, Fe
+           Quiz 
+           On-going
+           Pe, Fe
 ###   Part ( phần )
 ###   Weight 
-####       Mô Tả: Trọng số trên từng hạng mục 
+           Mô Tả: Trọng số trên từng hạng mục 
 ###   Completion Criteria 
-####       Mô Tả: Điều kiện để thi và điểm tối thiểu để pass 
+           Mô Tả: Điều kiện để thi và điểm tối thiểu để pass 
 ###   Duration
-####       Mô Tả: Khoảng thời gian cần làm việc trong hạng mục
-####       At home 
-####       In lab session
+           Mô Tả: Khoảng thời gian cần làm việc trong hạng mục
+           At home 
+           In lab session
 ###   Question Type( Loại câu hỏi ): MTC
 ###   No Question( Số câu hỏi )
 ###   Knowledge and Skill
@@ -41,30 +41,31 @@
 ## Bảng Điểm Của Sinh Viên
 ### ![image](https://user-images.githubusercontent.com/76523661/174435461-09a9d235-f99f-4169-8c2a-cebee1f6d4e7.png)
 ### Grade category (hạng mục)
-#### Quiz 1 ( PT1 )
-#### Quiz 2 ( PT2 )
-#### Group Assignment
-#### Group Project
-#### Final Exam 
-#### Final Exam Resit
+     Quiz 1 ( PT1 )
+     Quiz 2 ( PT2 )
+     Group Assignment
+     Group Project
+     Final Exam 
+     Final Exam Resit
 ### Grade Item ( hạng mục ) : thêm 1 row total
-### Weight: Tỉ trọng điểm thành phần( cũng có ở bên FML table )
+### Weight
+     Mô Tả: Tỉ trọng điểm thành phần( cũng có ở bên FML table )
 ### Value: Mark
 --------------------------------------------------------------------------
 # Xác Định Các Thực Thể Và Các Thông Tin Thuộc Tính 
 ##    Xác Định Các Thực Thể 
 ###         Thực Thể 1: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 ###         Thực Thể 2: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 ###         Thực Thể 3: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 ###         Thực Thể 4: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 ###         Thực Thể 5: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 ###         Thực Thể 6: 
-####               Các Thuộc Tính Cần Có
+                   Các Thuộc Tính Cần Có
 --------------------------------------------------------------------------
 # Phân Chia Các Entities Và Relationships
 ##  Entity x  <-> Entity y
@@ -83,11 +84,11 @@
 --------------------------------------------------------------------------
 ##   Chuẩn Hóa Thuộc Tính Các Attribute Trên Từng Bảng 
 ###     Table1 : Object 1
-####        Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
+            Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
 ###     Table2 : Object 2
-####        Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
+            Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
 ###     Table3 : Object 3
-####        Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
+            Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
 --------------------------------------------------------------------------
 ##   Database_Diagram
 ###     Hình Ảnh Và Mô Tả
