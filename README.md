@@ -2,7 +2,7 @@
 ** Phân Tích Quản Lý Điểm FLM **
 # Xác Định Và Tổng Hợp Các Dữ Liệu 
 ## Bảng Thông Tin Các Điểm Thành Phần
-###   Link Image Table FLM  
+###   ![image](https://user-images.githubusercontent.com/76523661/174435404-9625a8e9-0cb4-4422-bf44-80bf17562179.png) 
 ###   Category (hạng mục)
 ####       Progress Tests 
 ####       Assignment
@@ -27,7 +27,7 @@
 ###   Note
 --------------------------------------------------------------------------
 ## Bảng Môn Và Khóa Học 
-### Link Image Table Subjects
+### ![image](https://user-images.githubusercontent.com/76523661/174435441-24021f17-609a-4c3d-ac96-fc9184d21479.png)
 ### NO: number of subject
 ### Subject code : One subject <-> One code
 ### Subject name : Define of subject
@@ -39,7 +39,7 @@
 ### Status: Not Passed OR Passed
 --------------------------------------------------------------------------
 ## Bảng Điểm Của Sinh Viên
-### Link Image Table Subjects
+### ![image](https://user-images.githubusercontent.com/76523661/174435461-09a9d235-f99f-4169-8c2a-cebee1f6d4e7.png)
 ### Grade category (hạng mục)
 #### Quiz 1 ( PT1 )
 #### Quiz 2 ( PT2 )
