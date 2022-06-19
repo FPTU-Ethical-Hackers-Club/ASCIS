@@ -2,7 +2,7 @@
 *** Phân Tích Quản Lý Điểm FLM ***
 # Xác Định Và Tổng Hợp Các Dữ Liệu 
 ## Bảng Thông Tin Các Điểm Thành Phần
-###   Link FlM Table
+###   ![image](https://user-images.githubusercontent.com/76523661/174473470-0efadd32-427b-475b-93a6-52d2a7179314.png)
 ###   Category (hạng mục)
           Mô Tả: Danh sách, Tên Các Đầu Điểm
                - Progress Tests 
