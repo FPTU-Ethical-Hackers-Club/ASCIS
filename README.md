@@ -98,55 +98,54 @@
                - Last Name
                - Address
                - Gender
+               - Date Of Birth
+               - Email
 ###         Thực Thể 2: Group Students
                - GroupID
-               - Group Name
-               - Group Department
+               - Major
 ###         Thực Thể 3: Courses
                - CourseID
                - CourseName
                - Course_Status ( Online, Offline)
-###         Thực Thể 4: Semesters
-               - SemesterID
-               - Semester Name
-               - Start_Time
-               - End_Time
-###         Thực Thể 5: Syllabus
-               - AssignmentID
-               - Category
-               - Score
-               - Weight
-               - Type 
-               - CourseID
-###         Thực Thể 6: Grade
-               - CategoryID
-               - Weight
-               - Score
-               - Status
-###         Thực Thể 7: Course_Grade
-               - Status
-               - Average Mark
-               - SubjectCode
-###         Thực Thể 8: Exam_Grade
-               - ExamID
-               - CourseID
-###         Thực Thể 9: Lectures
+###         Thực Thể 4: Lectures
                - LectureID
                - First Name
                - Last Name
                - Gender
                - Phone
-               - Address
-###         Thực Thể 10: Categories
-               - CourseID
-               - SemesterID
-###         Thực Thể 11: Guide_Note
-               - Guide_Note_ID
-               - Details
-###         Thực Thể 12: Course_Status
-               - CourseID
+               - Date Of Birth
+               - ReportTO
+###         Thực Thể 5: Class
+               - ClassID
+               - Lecturer
+               - Major
+###         Thực Thể 6: Assessment
+               - AssessmentID
                - Status
-               - SemesterID
+               - Semester
+               - Start Date
+               - End Date
+###         Thực Thể 7: Category
+               - CatID
+               - Category
+               - Type
+               - Part
+               - Weight
+               - Duration
+               - Quest Type
+               - Number Of Questions
+               - Skill
+               - Grading Guide
+               - Note
+###         Thực Thể 8: Assessment system
+               - AssessmentID
+               - CourseID
+               - AssigmentID
+               - Weight
+###         Thực thể 9: Assignment
+               - AssigmentID
+               - AssigmentName
+               
 --------------------------------------------------------------------------
 # Phân Chia Các Entities Và Relationships
 ##  Entity x  <-> Entity y
