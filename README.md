@@ -148,9 +148,16 @@
                
 --------------------------------------------------------------------------
 # Phân Chia Các Entities Và Relationships
-##  Entity x  <-> Entity y
-###     Mô Tả:  
-###     -> Xác Định Quan Hệ Giữa Entity X Và Y ( 1-1,1-n,n-n)
+##  Entity Students <-> Entity Groups
+    Mô Tả:  Một Student có thể đăng kí học nhiều Courses Và 1 Courses có thể có nhiều Student đăng kí học.
+    -> Xác Định Quan Hệ Giữa Entity Students Và Entity Groups  là quan hệ nhiều nhiều ( n-n )
+##  Entity Class <-> Entity Lectures
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 lecturer và 1 Lecturer có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lectures là quan hệ một nhiều ( 1-n )
+##  Entity Class <-> Entity Lectures
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 lecturer và 1 Lecturer có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lectures là quan hệ một nhiều ( 1-n )
+
 --------------------------------------------------------------------------
 # ERD Diagram
 ## Image ERD
