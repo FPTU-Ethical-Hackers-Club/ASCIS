@@ -154,9 +154,27 @@
 ##  Entity Class <-> Entity Lectures
     Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 lecturer và 1 Lecturer có thể phụ trách nhiều class.
     -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lectures là quan hệ một nhiều ( 1-n )
-##  Entity Class <-> Entity Lectures
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 lecturer và 1 Lecturer có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lectures là quan hệ một nhiều ( 1-n )
+##  Entity Class <-> Entity Groups
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Student <-> Entity Assessment System
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Class <-> Entity Assessment System
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Courses <-> Entity Assessment System
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Class <-> Entity Assignment
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Courses <-> Entity Assignment
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+##  Entity Category <-> Entity Assignment Systems
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( 1-n )
 
 --------------------------------------------------------------------------
 # ERD Diagram
