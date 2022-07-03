@@ -107,7 +107,7 @@
                - CourseID
                - CourseName
                - Course_Status ( Online, Offline)
-###         Thực Thể 4: Lectures
+###         Thực Thể 4: Lecturers
                - LectureID
                - First Name
                - Last Name
@@ -150,37 +150,44 @@
 # Phân Chia Các Entities Và Relationships
 ##  Entity Students <-> Entity Groups
     Mô Tả:  Một Student có thể đăng kí học nhiều Courses Và 1 Courses có thể có nhiều Student đăng kí học.
-    -> Xác Định Quan Hệ Giữa Entity Students Và Entity Groups  là quan hệ nhiều nhiều ( n-n )
-##  Entity Class <-> Entity Lectures
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 lecturer và 1 Lecturer có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lectures là quan hệ một nhiều ( 1-n )
+    -> Xác Định Quan Hệ Giữa Entity Students Và Entity Groups là quan hệ nhiều nhiều ( n-n )
+##  Entity Class <-> Entity Lecturers
+    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Lecturer và 1 Lecturer có thể phụ trách nhiều class.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Lecturers là quan hệ một nhiều ( 1-n )
 ##  Entity Class <-> Entity Groups
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Class có thể được đăng kí bởi nhiều Groups và 1 Group có thể đăng kí nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Classes Và Entity Groups là quan hệ nhiều nhiều ( n-n )
 ##  Entity Student <-> Entity Assessment System
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Student có thể có nhiều hệ thống đánh giá các đầu điểm và 1 Assessment System có thể phụ trách đầu điểm của nhiều Students.
+    -> Xác Định Quan Hệ Giữa Entity Students Và Entity Assessment System là quan hệ nhiều nhiều ( n-n )
 ##  Entity Class <-> Entity Assessment System
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Class có thể có nhiều hệ thống đánh giá các đầu điểm và 1 Assessment System có thể phụ trách đầu điểm của nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Assessment System là quan hệ nhiều nhiều ( n-n )
+##  Entity Class <-> Entity Students
+    Mô Tả:  Một Class có thể có nhiều đầu điểm của Students và 1 Students có thể xem được đầu điểm của nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Students là quan hệ nhiều nhiều ( n-n )
 ##  Entity Courses <-> Entity Assessment System
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Course chỉ có thể có duy nhất 1 hệ thống đánh giá các đầu điểm  và 1 Assessment System có thể là hệ thống đánh giá của  nhiều Courses.
+    -> Xác Định Quan Hệ Giữa Entity Assessment System Và Entity Courses là quan hệ một nhiều ( 1-n )
 ##  Entity Class <-> Entity Assignment
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Class chỉ nhận đúng 1 Assignment  và 1 Assignment có thể được giao cho nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Assignment là quan hệ một nhiều ( 1-n )
 ##  Entity Courses <-> Entity Assignment
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( n-n )
+    Mô Tả:  Một Courses chỉ có thể có đúng 1 Assigment và 1 Assigment có thể được lấy từ nhiều Courses.
+    -> Xác Định Quan Hệ Giữa Entity Courses Và Entity Assigment là quan hệ một nhiều ( 1-n )
 ##  Entity Category <-> Entity Assignment Systems
-    Mô Tả:  Một Class chỉ có thể được phụ trách bởi đúng 1 Group và 1 Group có thể phụ trách nhiều class.
-    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Groups là quan hệ một nhiều ( 1-n )
+    Mô Tả:  Một Category có thể tổng hợp từ nhiều Assignment Systems và 1 Assignment Systems chỉ có thể đưa vào 1 Category duy nhất.
+    -> Xác Định Quan Hệ Giữa Entity Category Và Entity Assignment Systems là quan hệ một nhiều ( 1-n )
+##  Entity Lecturers <-> Entity Assignment
+    Mô Tả:  Một Assigment có thể có được từ nhiều Lecturers và 1 Lecturers chỉ có thể đưa ra đúng 1 Assignment.
+    -> Xác Định Quan Hệ Giữa Entity Assigment Và Entity Lecturers là quan hệ một nhiều ( 1-n )
+
 
 --------------------------------------------------------------------------
 # ERD Diagram
 ## Image ERD
 --------------------------------------------------------------------------
-# Chuyển đổi
+# Chuyển Đổi
 ##   ERD -> Quy Chuẩn 3NF -> Bước Đầu Xác Định DataBase_Diagram
 ##   Xác Định Primary Key Các Table 
 ##   Phân Tách Các Quan Hệ ( 1-n , n-n )
