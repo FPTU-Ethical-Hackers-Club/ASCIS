@@ -115,12 +115,11 @@
                - Phone
                - Date Of Birth
                - ReportTO
-###         Thực Thể 5: Class
+###         Thực Thể 5: Guide
+               - GuideID
+               - Details
+###         Thực Thể 6: Class
                - ClassID
-               - Lecturer
-               - Major
-###         Thực Thể 6: Assessment
-               - AssessmentID
                - Status
                - Semester
                - Start Date
@@ -185,7 +184,8 @@
 
 --------------------------------------------------------------------------
 # ERD Diagram
-## Image ERD
+## ![image](https://user-images.githubusercontent.com/76523661/177997507-60211233-ca77-4ccf-84e0-b03c1578fca4.png)
+
 --------------------------------------------------------------------------
 # Chuyển Đổi
 ##   ERD -> Quy Chuẩn 3NF -> Bước Đầu Xác Định DataBase_Diagram
