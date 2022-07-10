@@ -193,40 +193,53 @@
         Quan hệ nhiều nhiều được biểu hiện qua Action "JOIN" 
         -> Tách và Tạo TABLE
             TABLE_STUDENTS <-> TABLE_JOIN( GrID, StudentID ) <-> TABLE_GROUPS
-
+--------------------------------------------------------------------------
     2. CLASSES Và GROUPS 
         Quan hệ nhiều nhiều được biểu hiện qua Action "ENROLL" 
         -> Tách và Tạo TABLE 
             TABLE_CLASSES <-> TABLE_ENROLL( ClassID, GrID ) <-> TABLE_GROUPS
-
+--------------------------------------------------------------------------
     3. CLASSES Và ASSESSMENT SYSTEM  
         Quan hệ nhiều nhiều được biểu hiện qua Action "ASSESS" 
         -> Tách và Tạo TABLE 
             TABLE_CLASSES <-> TABLE_ASSESS( ClassID, AssID ) <-> TABLE_ASSESSMENT_SYSTEM
-
+--------------------------------------------------------------------------
     4. STUDENTS Và ASSESSMENT SYSTEM
         Quan hệ nhiều nhiều được biểu hiện qua Action "GRADE" 
         -> Tách và Tạo TABLE
             TABLE_STUDENTS <-> TABLE_GRADE( AssID, StudentID, Score, Date ) <-> TABLE_ASSESSMENT_SYSTEM
-
+--------------------------------------------------------------------------
     5. STUDENTS Và CLASSES
         Quan hệ nhiều nhiều được biểu hiện qua Action "VIEW" 
         -> Tách và Tạo TABLE
             TABLE_STUDENTS <-> TABLE_VIEW( ClassID, StudentID, Average, Status ) <-> TABLE_GROUPS
 ##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
     1. TABLE STUDENTS
+--------------------------------------------------------------------------
     2. TABLE GROUPS
+--------------------------------------------------------------------------
     3. TABLE JOIN
+--------------------------------------------------------------------------
     4. TABLE LECTURERS
+--------------------------------------------------------------------------
     5. TABLE CLASSES
+--------------------------------------------------------------------------
     6. TABLE VIEW
+--------------------------------------------------------------------------
     7. TABLE ENROLL
+--------------------------------------------------------------------------
     8. TABLE GRADE
+--------------------------------------------------------------------------
     9. TABLE ASSESSMENT_SYSTEM
+--------------------------------------------------------------------------
     10. TABLE ASSIGNMENT
+--------------------------------------------------------------------------
     11. TABLE COURSE
+--------------------------------------------------------------------------
     12. TABLE GUIDE
+--------------------------------------------------------------------------
     13. TABLE CATEGORY
+--------------------------------------------------------------------------
     14. TABLE ASSESS
 --------------------------------------------------------------------------
 ##   Chuẩn Hóa Thuộc Tính Các Attribute Trên Từng Bảng 
