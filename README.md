@@ -215,14 +215,15 @@
             TABLE_STUDENTS <-> TABLE_VIEW( ClassID, StudentID, Average, Status ) <-> TABLE_GROUPS
 ##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
 1. TABLE STUDENTS
-|Attributes | Type
-|:---|---:
-StudentID   |    Varchar  
-Last Name   |    NVarchar 
-First Name  |    NVarchar 
-Gender      |    Bit      
-Email       |    Varchar  
-DoB         |    Date     
+
+| Attributes | Type |
+|:---|:---|
+| StudentID   |    Varchar | 
+| Last Name   |    NVarchar |
+| First Name  |    NVarchar |
+| Gender      |    Bit      |
+| Email       |    Varchar  |
+| DoB         |    Date     |
 --------------------------------------------------------------------------
     2. TABLE GROUPS
     |              GROUPS          |
