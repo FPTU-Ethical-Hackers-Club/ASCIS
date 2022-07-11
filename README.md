@@ -273,8 +273,6 @@
 
 6. TABLE VIEW
 
-|VIEW|
-|:----------|
 | Attributes | Type |
 |:-----|:-----|
 |    StudentID   |    Varchar  |
