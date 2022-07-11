@@ -213,8 +213,7 @@
         Quan hệ nhiều nhiều được biểu hiện qua Action "VIEW" 
         -> Tách và Tạo TABLE
             TABLE_STUDENTS <-> TABLE_VIEW( ClassID, StudentID, Average, Status ) <-> TABLE_GROUPS
-##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
-1. TABLE STUDENTS
+##   Chuẩn Hóa Thuộc Tính Các Attribute Trên Từng Bảng 
 
 | Attributes | Type |
 |:---|:---|
@@ -281,23 +280,82 @@
 |    Status      |    Varchar  |
 
 --------------------------------------------------------------------------
-    7. TABLE ENROLL
+7. TABLE ENROLL
+
+| Attributes | Type |
+|:-----|:-----|
+|    GrID        |    Varchar  |
+|    ClassID     |    Varchar  |
+
 --------------------------------------------------------------------------
-    8. TABLE GRADE
+8. TABLE GRADE
+
+| Attributes | Type |
+|:-----|:-----|
+|    StudentID   |    Varchar  |
+|    AssID       |    Varchar  |
+|    Score       |    Float    |
+|    Date        |    Date     |
+
 --------------------------------------------------------------------------
-    9. TABLE ASSESSMENT_SYSTEM
+9. TABLE ASSESSMENT_SYSTEM
+
+| Attributes | Type |
+|:-----|:-----|
+|   AssID        |    Varchar  |
+|   CatID        |    Varchar  |
+|   CouID        |    Varchar  |
+|   Weigh        |    Float    |
+|   Number Quest |    Varchar  |
+|   Duration     |    Varchar  |
+
+
 --------------------------------------------------------------------------
-    10. TABLE ASSIGNMENT
+10. TABLE ASSIGNMENT
+
+| Attributes | Type |
+|:-----|:-----|
+|    AsgID       |    Varchar  |
+|    LecID       |    Varchar  |
+|    Major       |    Varchar  |
+
 --------------------------------------------------------------------------
-    11. TABLE COURSE
+11. TABLE COURSE
+
+| Attributes | Type |
+|:-----|:-----|
+|    CouID   |    Varchar  |
+|    CName   |    Varchar  |
+|    GuideID |    Varchar  |
+
 --------------------------------------------------------------------------
-    12. TABLE GUIDE
+12. TABLE GUIDE
+
+| Attributes | Type |
+|:-----|:-----|
+|    GuideID     |    Varchar  |
+|    Details     |    Text     |
+
 --------------------------------------------------------------------------
-    13. TABLE CATEGORY
+13. TABLE CATEGORY
+
+| Attributes | Type |
+|:-----|:-----|
+|    CatID       |    Varchar  |
+|    Name        |    Varchar  |
+|    Type        |    Varchar  |
+|    Completion Criteria      |    Varchar  |
+
 --------------------------------------------------------------------------
-    14. TABLE ASSESS
+14. TABLE ASSESS
+
+| Attributes | Type |
+|:-----|:-----|
+|    AssID       |    Varchar  |
+|    ClassID     |    Varchar  |
+
 --------------------------------------------------------------------------
-##   Chuẩn Hóa Thuộc Tính Các Attribute Trên Từng Bảng 
+##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
 ###     Table1 : Object 1
             Các Attributes Và Định Dạng Kiểu Dữ Liệu Attributes
 ###     Table2 : Object 2
