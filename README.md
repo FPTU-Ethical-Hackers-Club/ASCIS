@@ -215,60 +215,66 @@
             TABLE_STUDENTS <-> TABLE_VIEW( ClassID, StudentID, Average, Status ) <-> TABLE_GROUPS
 ##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
 1. TABLE STUDENTS
-
+|:-------------------------:|
+| STUDENTS |
 | Attributes | Type |
-|:---|:---|
-| StudentID   |    Varchar | 
+|:------------|:------------|
+| StudentID   |    Varchar  | 
 | Last Name   |    NVarchar |
 | First Name  |    NVarchar |
 | Gender      |    Bit      |
 | Email       |    Varchar  |
 | DoB         |    Date     |
 --------------------------------------------------------------------------
-    2. TABLE GROUPS
-    |              GROUPS          |
-    |------------------------------|
-    |----------------|------------ |
-    |    GrID        |    Varchar  |
-    |    Major       |    Varchar  |
+2. TABLE GROUPS
+|:-------------------------:|
+| GROUPS |
+| Attributes | Type |
+|:------------|:------------|
+|    GrID        |    Varchar  |
+|    Major       |    Varchar  |
 --------------------------------------------------------------------------
-    3. TABLE JOIN
-    |              JOIN            |
-    |------------------------------|
-    |----------------|------------:|
-    |    GrID        |    Varchar  |
-    |    StudentID   |    Varchar  |
+3. TABLE JOIN
+|:-------------------------:|
+| JOIN |
+| Attributes | Type |
+|:------------|:------------|
+|    GrID        |    Varchar  |
+|    StudentID   |    Varchar  |
 --------------------------------------------------------------------------
-    4. TABLE LECTURERS
-    |           LECTURES           |
-    |------------------------------|
-    |----------------|------------:|
-    |    LecID       |    Varchar  |
-    |    Last Name   |    NVarchar |
-    |    First Name  |    NVarchar |
-    |    Gender      |    Bit      |
-    |    Email       |    Varchar  |
-    |    DoB         |    Date     |
-    |    Report      |    Varchar  |
+4. TABLE LECTURERS
+|:-------------------------:|
+|           LECTURES           |
+| Attributes | Type |
+|:------------|:------------|
+|    LecID       |    Varchar  |
+|    Last Name   |    NVarchar |
+|    First Name  |    NVarchar |
+|    Gender      |    Bit      |
+|    Email       |    Varchar  |
+|    DoB         |    Date     |
+|    Report      |    Varchar  |
 --------------------------------------------------------------------------
-    5. TABLE CLASSES
-    |             CLASSED          |
-    |------------------------------|
-    |----------------|------------:|
-    |    ClassID     |    Varchar  |
-    |    Semester    |    Varchar  |
-    |    Start Date  |    Date     |
-    |    End Date    |    Date     |
-    |    AsgID       |    Varchar  |
+5. TABLE CLASSES
+|:-------------------------:|
+|             CLASSED          |
+| Attributes | Type |
+|:------------|:------------|
+|    ClassID     |    Varchar  |
+|    Semester    |    Varchar  |
+|    Start Date  |    Date     |
+|    End Date    |    Date     |
+|    AsgID       |    Varchar  |
 --------------------------------------------------------------------------
-    6. TABLE VIEW
-    |               VIEW           |
-    |------------------------------|
-    |----------------|------------:|
-    |    StudentID   |    Varchar  |
-    |    ClassID     |    Varchar  |
-    |    Average     |    Float    |
-    |    Status      |    Varchar  |
+6. TABLE VIEW
+|:-------------------------:|
+|               VIEW           |
+| Attributes | Type |
+|:------------|:------------|
+|    StudentID   |    Varchar  |
+|    ClassID     |    Varchar  |
+|    Average     |    Float    |
+|    Status      |    Varchar  |
 --------------------------------------------------------------------------
     7. TABLE ENROLL
 --------------------------------------------------------------------------
