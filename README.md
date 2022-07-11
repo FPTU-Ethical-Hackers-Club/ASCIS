@@ -215,6 +215,7 @@
             TABLE_STUDENTS <-> TABLE_VIEW( ClassID, StudentID, Average, Status ) <-> TABLE_GROUPS
 ##   Xác Định Primary Key, Foriegn Key, Attributes Các TABLES
 1. TABLE STUDENTS
+
 | Attributes | Type |
 |:---|:---|
 | StudentID   |    Varchar  | 
@@ -223,20 +224,29 @@
 | Gender      |    Bit      |
 | Email       |    Varchar  |
 | DoB         |    Date     |
+
 --------------------------------------------------------------------------
+
 2. TABLE GROUPS
+
 | Attributes | Type |
 |:---|:---|
 |    GrID        |    Varchar  |
 |    Major       |    Varchar  |
+
 --------------------------------------------------------------------------
+
 3. TABLE JOIN
+
 | Attributes | Type |
 |:---|:---|
 |    GrID        |    Varchar  |
 |    StudentID   |    Varchar  |
+
 --------------------------------------------------------------------------
+
 4. TABLE LECTURERS
+
 | Attributes | Type |
 |:---|:---|
 |    LecID       |    Varchar  |
@@ -246,8 +256,11 @@
 |    Email       |    Varchar  |
 |    DoB         |    Date     |
 |    Report      |    Varchar  |
+
 --------------------------------------------------------------------------
+
 5. TABLE CLASSES
+
 | Attributes | Type |
 |:---|:---|
 |    ClassID     |    Varchar  |
@@ -255,14 +268,18 @@
 |    Start Date  |    Date     |
 |    End Date    |    Date     |
 |    AsgID       |    Varchar  |
+
 --------------------------------------------------------------------------
+
 6. TABLE VIEW
+
 | Attributes | Type |
 |:-----|:-----|
 |    StudentID   |    Varchar  |
 |    ClassID     |    Varchar  |
 |    Average     |    Float    |
 |    Status      |    Varchar  |
+
 --------------------------------------------------------------------------
     7. TABLE ENROLL
 --------------------------------------------------------------------------
